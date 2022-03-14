@@ -158,7 +158,7 @@ main #servicos{
 
 main #sobre{
     height: 95vh;
-    background-image: url("../proj_02/image/geometric_background.png");
+    background-image: url("https://github.com/Edmilson-Filimone/webpage/blob/main/image/geometric_background.png?raw=true");
     background-size:60% 100%;
     background-position-x: right;
     background-position-y: 12vh;
