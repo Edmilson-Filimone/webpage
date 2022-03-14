@@ -158,7 +158,7 @@ main #servicos{
 
 main #sobre{
     height: 95vh;
-    background-image: url("../image/geometric_background.png");
+    background-image: url("./image/geometric_background.png");
     background-size:60% 100%;
     background-position-x: right;
     background-position-y: 12vh;
