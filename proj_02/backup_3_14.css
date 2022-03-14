@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('http://fonts.cdnfonts.com/css/idroid');
+
+*{
+text-decoration: none; list-style: none;
+box-sizing: border-box; margin:0; padding:0;
+font-family: 'Roboto', sans-serif;
+}
+
+
+header.header{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    box-shadow:0px 2px 1px rgba(0, 0, 0, 0.185);
+    position:fixed;
+    width: 100%;
+    margin-bottom:2%;
+}
+
+
+header .nav{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding-inline-start:3%;
+    padding-inline-end:3%;
+    padding-block-start: 1%;
+}
+
+.nav .logo{
+    padding:1.2% 1.5%;
+    font-family:  'iDroid',sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.nav .menu{
+    display: none;
+    position:fixed;
+    border:2px solid black;
+    background-color: rgb(65, 66, 68);
+    width: 100%; height: 100%;
+    left:0px; top:0px;
+    text-align:justify;
+}
+
+.menu ul li{
+    color:white;
+    line-height: 3em;
+    padding-left: 10%;
+}
+
+.nav .menu ul li a{color:white}
+
+.nav .menu ul li a:hover{
+    display:block;
+    padding-left:40%;
+    border: 1px solid aliceblue;
+}
+
+.nav button.open_menu{
+    width: 38px;
+    height: 38px;
+    border-radius: 60px;
+}
+
+.nav .menu .close_menu{
+    width: 38px;
+    height: 38px;
+    color:black;
+    float:right;
+}
+
+/*sections - hero*/
+main .hero{
+    display:flex;
+    height: 100vh;
+}
+
+main .hero img{
+    width: 37%;
+    padding-top: 2%;
+}
+
+main .hero .discricao{
+    width: 60%;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+.discricao h1{
+    font-size: 2.4em;
+    text-align: center;
+    margin-bottom:2.5%
+}
+
+.discricao p{
+    line-height: 1.6em;
+    padding: 4%;
+    margin-bottom:2.5%
+}
+
+.discricao button{
+    text-align: center;
+    width: 40%;
+    height: fit-content;
+    margin-left: 30%;
+    background-color: rgba(80, 220, 255, 0.966);
+    border:2px solid rgba(92, 92, 92, 0.938);
+    border-radius:15px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.466);
+    letter-spacing: 1.8px;
+    padding:1.5%;
+}
+
+/*section servicos*/
+
+main #servicos{
+    display: flex;
+    height: 90vh;
+    background-color: rgba(101, 93, 219, 0.897);
+}
+
+#servicos .service{
+    width: 30%;
+    margin:1.4%;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(right bottom, aliceblue, white);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+}
+
+.service img{
+    max-width: 100%;
+    height: 50%;
+    text-align: center;
+    border-radius:40px;
+}
+
+.service h2{
+    padding:2%;
+    margin-bottom:2%;
+}
+
+.service p{
+    text-align: justify;
+    padding:4%;
+}
+
+/*section sobre*/
+
+main #sobre{
+    height: 95vh;
+    background-image: url("../proj_02/image/geometric_background.png");
+    background-size:60% 100%;
+    background-position-x: right;
+    background-position-y: 12vh;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+
+}
+
+
+#sobre h1{
+    padding: 7% 3% 3% 3%;
+    font-family:'iDroid', sans-serif;
+}
+
+#sobre p{
+    width: 55%;
+    background-color: rgba(240, 248, 255, 0.637);
+    border: 1px solid black;
+    padding: 3%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    line-height: 1.6em;
+}
+
+
+/*Media queires mobile*/
+@media(max-width:800px) {
+    main #servicos{
+        display:inline-block;
+        height: fit-content;
+        background-color: rgba(101, 93, 219, 0.897);
+}
+#servicos .service{
+    width: 90%;
+    margin:1.4%;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(right bottom, aliceblue, white);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+}
+}
