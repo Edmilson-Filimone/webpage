@@ -209,7 +209,7 @@ main #sobre{
         box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
 }
 
-    main #sobre p{width:88%; height:300px;margin-top:15px; overflow: scroll;}
+    main #sobre p{width:88%; height:70%;margin-top:15px; overflow: scroll;}
 }
 
 /*large screen*/
