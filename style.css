@@ -76,17 +76,16 @@ header .nav{
 /*sections - hero*/
 main .hero{
     display:flex;
-}
-
-main .hero img{
-    width: 37%;
-    padding-top: 2%;
+    background-image: url("https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
 }
 
 main .hero .discricao{
     width: 60%;
     padding: 5%;
     margin-top: 10%;
+    text-align:left;
 }
 
 .discricao h1{
@@ -183,23 +182,6 @@ main #sobre{
 
 /*Media queires mobile*/
 @media(max-width:800px) {
-      
-    main .hero{
-    background-image: url("https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
- }
-    
-    main .hero img{
-        display:none;
-}
-
-main .hero .discricao{
-    width: 60%;
-    padding: 5%;
-    margin-top: 10%;
-    text-align:left;
-}
      
     main #servicos{
         display:inline-block;
