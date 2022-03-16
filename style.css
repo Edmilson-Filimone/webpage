@@ -117,10 +117,17 @@ main .hero .discricao{
 
 /*section servicos*/
 
+main section .introservico{padding: 3% 0% 0% 0%;
+    border-bottom-style:dotted; border-width:0px 0px 3px 0px;
+    border-image:-webkit-linear-gradient(161deg,#f908bd, rgb(69 66 255 / 57%), rgb(66 240 253))1;
+    margin-left:35vw;
+    width: fit-content;
+}
+
 main #servicos{
     display: flex;
     background-image:-webkit-linear-gradient(#0894F9, #2755D2);
-    margin-top:5%;
+    margin-top:2%;
 }
 
 #servicos .service{
@@ -181,8 +188,22 @@ main #sobre{
 }
 
 
+footer{
+    display:flex;
+    padding: 3%;
+    background-color: #1f2125;
+    color: white;
+}
+
+footer .adress{margin-right:15%;}
+.adress li{width:max-content; padding-bottom: 2%;}
+footer .icons{margin-right: 15%;}
+.icons li{display: inline-block; padding:4%; font-size: 1.8em;}
+footer h1.logo{font-size: 2.5em; font-family: 'iDroid', Calibri;}
+
+
 /*Media queires mobile*/
-@media(max-width:800px) {
+@media(max-width:799px) {
 
     header.header{padding-top:3%; padding-bottom: 3%;}
 
@@ -217,6 +238,8 @@ main #sobre{
 }
 
     main #sobre p{width:88%; height:300px;margin-top:15px; overflow: scroll;}
+
+    footer{flex-direction: column;}
 }
 
 /*large screen*/
