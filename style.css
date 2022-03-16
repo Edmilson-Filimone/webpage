@@ -190,6 +190,7 @@ main #sobre{
 
 footer{
     display:flex;
+    margin-top:3%;
     padding: 3%;
     background-color: #1f2125;
     color: white;
