@@ -184,15 +184,22 @@ main #sobre{
 /*Media queires mobile*/
 @media(max-width:800px) {
 
+    header.header{padding-top:3%; padding-bottom: 3%;}
+
     main .hero{
         height: fit-content;
         background-size:60% 30%;
-        background-position-y:5vh;
+        background-position-y:10vh;
+        padding-top:3%; padding-bottom:3%;
     }
 
     .hero h1{text-align:left; font-size: 1.9em;}
     .hero p{width: 180%}
-     
+    
+    .nav .open_menu{
+       color:#d0dee7; border:1px solid; background-image: -webkit-linear-gradient(left bottom, rgb(66, 240, 253), rgb(69, 66, 255));
+    }
+
     main #servicos{
         display:inline-block;
         height: fit-content;
@@ -209,7 +216,7 @@ main #sobre{
         box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
 }
 
-    main #sobre p{width:88%; height:70%;margin-top:15px; overflow: scroll;}
+    main #sobre p{width:88%; height:300px;margin-top:15px; overflow: scroll;}
 }
 
 /*large screen*/
